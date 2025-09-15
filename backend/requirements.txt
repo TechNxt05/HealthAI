@@ -1,8 +1,8 @@
 dockstring==0.3.2
-Flask==3.0.3
-Flask_Cors==5.0.0
-Flask-SocketIO
-gunicorn
+Flask==2.3.4                # More stable than 3.x for extensions
+Flask-Cors==3.1.13          # Compatible with Flask 2.x
+Flask-SocketIO==6.3.0       # Compatible with Flask 2.x
+gunicorn==21.2.0
 langchain==0.3.4
 langchain_community==0.3.3
 langchain_google_genai==2.0.1
@@ -10,15 +10,13 @@ matplotlib==3.9.2
 open_clip_torch==2.23.0
 pandas==2.2.3
 Pillow==11.0.0
-protobuf==5.28.3
+protobuf==4.23.6            # Compatible with torch & tensorflow
 pymongo==4.10.1
 python-dotenv==1.0.1
-Requests==2.32.3
+requests==2.32.3
 seaborn==0.13.2
 torch==2.5.1
-bcrypt
-numpy
-tensorflow
-rdkit==2025.3.6
-
-
+bcrypt==4.0.1
+numpy==1.26.2                # Compatible with torch & matplotlib
+tensorflow==2.14.0           # Latest stable TF version
+rdkit==2023.9.6              # Latest existing stable version
