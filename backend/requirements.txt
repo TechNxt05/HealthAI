@@ -20,5 +20,6 @@ torch==2.4.1
 bcrypt
 numpy
 tensorflow
-rdkit==2025.3.6
+rdkit==2024.9.6
+
 
