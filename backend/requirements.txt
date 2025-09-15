@@ -10,7 +10,7 @@ matplotlib==3.9.2
 open_clip_torch==2.23.0
 pandas==2.2.3
 Pillow==11.0.0
-protobuf==4.23.6
+protobuf==5.28.3
 pymongo==4.10.1
 python-dotenv==1.0.1
 requests==2.32.3
