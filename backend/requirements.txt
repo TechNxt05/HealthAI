@@ -15,7 +15,7 @@ pymongo==4.10.1
 python-dotenv==1.0.1
 Requests==2.32.3
 seaborn==0.13.2
-torch==2.4.1
+torch==2.5.1
 bcrypt
 numpy
 tensorflow
