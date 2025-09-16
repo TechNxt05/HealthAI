@@ -17,7 +17,7 @@ requests
 seaborn==0.13.2
 torch==2.5.1
 bcrypt==4.0.1
-numpy
-tensorflow
+numpy==1.26.4
+tensorflow==2.20.0
 rdkit==2025.3.6
  
