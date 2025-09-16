@@ -21,3 +21,5 @@ pip install --upgrade pip
 
 # Install dependencies
 pip install -r requirements.txt
+
+pip install gunicorn eventlet
